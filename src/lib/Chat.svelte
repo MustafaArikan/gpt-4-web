@@ -130,7 +130,7 @@
     let response: Response;
     try {
       const request: Request = {
-        model: "gpt-3.5-turbo",
+        model: "gpt-4",
         // Submit only the role and content of the messages, provide the previous messages as well for context
         messages: messages
           .map((message): Message => {
